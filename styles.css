@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #080811;
+}
+
+h1, h3, li
+{
+    padding: 15px; 
+    color: #cdcdcf;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a
+{
+    display: flex;
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    padding: 10px;
+    width: 200px;    
+    font-family: Times, serif;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #373737;
+    text-decoration: none;
+}
